@@ -8,8 +8,8 @@ import ContentBot from "./ContentBot";
 import ContentClient from "./ContentClient";
 import { db } from "../../../firebase";
 
-// const host = "https://calm-falls-75658.herokuapp.com";
-const host = "http://localhost:5000";
+const host = "https://calm-falls-75658.herokuapp.com";
+// const host = "http://localhost:5000";
 
 function useAutoScroll(ref) {
   useEffect(() => {
